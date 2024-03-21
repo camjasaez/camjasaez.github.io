@@ -1,18 +1,20 @@
 ---
-import Section from "../Section.astro"
+import Section from '../Section.astro';
+import { Badge } from '@/components/ui/badge';
 
-import { work } from "@cv"
+import { work } from '@cv';
 ---
 
+<!-- <Badge>Badge</Badge> -->
 <Section title="Experiencia laboral">
   <ul>
     {
       work.map(
         ({ name, startDate, endDate, position, summary, highlights, url }) => {
-          const startYear = new Date(startDate).getFullYear()
+          const startYear = new Date(startDate).getFullYear();
           const endYear =
-            endDate != null ? new Date(endDate).getFullYear() : "Actual"
-          const years = `${startYear} - ${endYear}`
+            endDate != null ? new Date(endDate).getFullYear() : 'Actual';
+          const years = `${startYear} - ${endYear}`;
 
           return (
             <li>
@@ -29,13 +31,12 @@ import { work } from "@cv"
 
                   <time>{years}</time>
                 </header>
-
                 <footer>
                   <p>{summary}</p>
                 </footer>
               </article>
             </li>
-          )
+          );
         }
       )
     }
@@ -51,11 +52,6 @@ import { work } from "@cv"
 
   article h3 {
     font-weight: 500;
-    color: #111;
-  }
-
-  article a {
-    color: #111;
   }
 
   article a:hover {
@@ -63,7 +59,6 @@ import { work } from "@cv"
   }
 
   article h4 {
-    color: #222;
     font-weight: 400;
   }
 
@@ -75,7 +70,6 @@ import { work } from "@cv"
   }
 
   time {
-    color: #555;
     font-size: 0.85rem;
     min-width: 102px;
   }

@@ -160,11 +160,59 @@
       ]
     },
     {
+      "name": "SpringBoot",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web",
+        "Backend",
+        "JavaScript",
+        "Servidor"
+      ]
+    },
+    {
+      "name": "Java",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web",
+        "Backend",
+        "JavaScript",
+        "Servidor"
+      ]
+    },
+    {
+      "name": "Angular",
+      "level": "Básico",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend"
+      ]
+    },
+    {
       "name": "MySQL",
       "level": "Avanzado",
       "keywords": [
         "Bases de Datos",
         "SQL",
+        "Almacenamiento de Datos",
+        "Backend"
+      ]
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "Avanzado",
+      "keywords": [
+        "Bases de Datos",
+        "SQL",
+        "Almacenamiento de Datos",
+        "Backend"
+      ]
+    },
+    {
+      "name": "MongoDB",
+      "level": "Avanzado",
+      "keywords": [
+        "Bases de Datos",
+        "NoSQL",
         "Almacenamiento de Datos",
         "Backend"
       ]
@@ -240,10 +288,7 @@
       "name": "Proyecto de Título",
       "isActive": true,
       "description": "Sistema de reconocimiento automático de patentes vehiculares para la Universidad del Bío-Bío",
-      "highlights": [
-        "Test",
-        "Test 2"
-      ],
+      "highlights": [],
       "url": "",
       "github": ""
     },
@@ -251,10 +296,7 @@
       "name": "Open Source UBB",
       "isActive": true,
       "description": "Comunidad de estudiantes de la Universidad del Bío-Bío que promueve el desarrollo de software libre",
-      "highlights": [
-        "Test",
-        "Test 2"
-      ],
+      "highlights": [],
       "url": "https://ubiobio.dev/",
       "github": ""
     },
@@ -262,10 +304,7 @@
       "name": "Template poryecto ISW",
       "isActive": true,
       "description": "Template para proyectos de Ingeniería de Software en la Universidad del Bío-Bío",
-      "highlights": [
-        "Test",
-        "Test 2"
-      ],
+      "highlights": [],
       "url": "https://github.com/ubiobio/Template-ISW-Proyecto/tree/main",
       "github": ""
     }
