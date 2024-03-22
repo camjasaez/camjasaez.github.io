@@ -6,7 +6,7 @@
     "email": "camjasaez@gmail.com",
     "phone": "+56 9 67376287",
     "url": "camilosaez.me",
-    "summary": "Soy egresado de Ingeniería de Ejecución en Computación e Informática en la Universidad del Bío Bío. Tengo una gran disposición hacia el aprendizaje autónomo, liderar equipos y afrontar desafíos que me lleven a desarrollar nuevas habilidades tanto en lo técnico como en lo laboral. Dentro de mi formación destaco mi colaboración como vicepresidente en la organización de Open Source UBB, mi rol como profesor ayudante y la participación en Hack The Challenge de NTT DATA del año 2022.",
+    "summary": "Soy egresado de Ingeniería de Ejecución en Computación e Informática en la Universidad del Bío Bío. Tengo una gran disposición hacia el aprendizaje autónomo, liderar equipos y afrontar desafíos que me lleven a desarrollar nuevas habilidades tanto en lo técnico como en lo laboral.\nDentro de mi formación destaco mi colaboración como vicepresidente en la organización de Open Source UBB, mi rol como profesor ayudante y la participación en Hack The Challenge de NTT DATA del año 2022.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -34,20 +34,24 @@
       "url": "https://ubiobio.dev/",
       "startDate": "2023-07-01",
       "endDate": null,
-      "summary": "Como Vicepresidente de la comunidad, lidero junto a mis compañeros, ayudando a definir metas y estrategias que guían nuestro crecimiento y éxito. Además, tengo el honor de coordinar y realizar talleres gratuitos para los alumnos, brindándoles oportunidades para adquirir nuevas habilidades y promover su desarrollo en el mundo del software.",
+      "summary": "Como Vicepresidente de la comunidad:",
       "highlights": [
-        "Started the company"
+        "Liderar junto a mis compañeros, ayudando a definir metas y estrategias que guían nuestro crecimiento y éxito",
+        "Participar activamente en la organización de eventos, charlas y talleres para la comunidad",
+        "Colaborar en la creación de proyectos open source y en la difusión de la comunidad en redes sociales"
       ]
     },
     {
       "name": "Universidad del Bío-Bío",
-      "position": "Ayudante de profesor",
+      "position": "Lider ayudante de profesor",
       "url": "https://www.ubiobio.cl/",
       "startDate": "2023-03-15",
       "endDate": "2024-01-18",
-      "summary": "Profesor ayudante de los ramos Ingeniería de Software y Metodologia de desarrollo. Mi objetivo es enseñar a los alumnos el desarrollo web a través del stack MERN. Imparto clases complementarias que apoyan su formación y brindo ayuda en sus proyectos semestrales.",
+      "summary": "Profesor ayudante de los ramos Ingeniería de Software y Metodologia de desarrollo.",
       "highlights": [
-        "Started the company"
+        "Enseñar a los alumnos el desarrollo web a través del stack MERN (MongoDB, Express.js, React.js y Node.js).",
+        "Crear plantillas de código y documentación para los alumnos.",
+        "Coordinar a los demás ayudantes asignando roles y funciones de apoyo para los estudiantes."
       ]
     },
     {
@@ -56,9 +60,11 @@
       "url": "https://cl.nttdata.com/",
       "startDate": "2023-02-01",
       "endDate": "2023-04-20",
-      "summary": "Me integré a NTT DATA como desarrollador en práctica para el área de la banca. Trabajé con un equipo multidisciplinario en un proyecto para el Banco de Chile donde aprendí a desarrollar servicios en backend, generar documentación, crear test unitarios y participar activamente en reuniones importantes para el proyecto.",
+      "summary": "Me integré a NTT DATA como desarrollador en práctica para el área de la banca. Trabajé con un equipo multidisciplinario en un proyecto para el Banco de Chile.",
       "highlights": [
-        "Started the company"
+        "Desarrollar servicios APIs RESTful y generar documentación",
+        "Implementar test unitarios y test End-to-End",
+        "Participar activamente en reuniones importantes para el proyecto, como daily meetings y sprint planning"
       ]
     }
   ],

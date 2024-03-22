@@ -34,6 +34,14 @@ import { work } from '@cv';
                 <footer>
                   <p>{summary}</p>
                 </footer>
+                <div class="highlights">
+                  {highlights?.map((highlight) => (
+                    <p class="highlight">
+                      <span class="highlight__dot">• </span>
+                      {highlight}
+                    </p>
+                  ))}
+                </div>
               </article>
             </li>
           );
@@ -44,39 +52,39 @@ import { work } from '@cv';
 </Section>
 
 <style>
+  .highlights {
+    @apply ml-4 mt-2;
+  }
+
+  .highlight {
+    @apply mt-1 max-w-xl flex;
+  }
+
+  .highlight__dot {
+    @apply text-gray-500 mr-2 block;
+  }
+
   ul {
-    display: flex;
-    flex-direction: column;
-    gap: 32px;
+    @apply flex flex-col gap-8;
   }
-
   article h3 {
-    font-weight: 500;
+    @apply font-medium;
   }
-
   article a:hover {
-    text-decoration: underline;
+    @apply underline;
   }
-
   article h4 {
-    font-weight: 400;
+    @apply font-normal;
   }
-
   header {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    margin-bottom: 4px;
+    @apply flex justify-between items-start mb-1;
   }
-
   time {
-    font-size: 0.85rem;
-    min-width: 102px;
+    @apply text-[0.85rem] min-w-[102px];
   }
-
   @media (width <= 700px) {
     time {
-      text-align: right;
+      @apply text-right;
     }
   }
 </style>
