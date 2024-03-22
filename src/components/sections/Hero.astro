@@ -18,7 +18,6 @@ const { city, region } = location;
 const SOCIAL_ICONS: SocialIcon = {
   GitHub,
   LinkedIn,
-  X,
 };
 
 const linkedInfo = profiles.find(({ network }) => network === 'LinkedIn');
@@ -48,7 +47,7 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(' • ');
       <footer class="print">
         {printInfo}
       </footer>
-      <footer class="no-print">
+      <footer class="no-print icons">
         {
           email && (
             <a
@@ -114,7 +113,7 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(' • ');
   }
 
   h1 {
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
 
   h2 {
@@ -151,8 +150,8 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(' • ');
     justify-content: center;
     border: 1px solid #eee;
     padding: 4px;
-    height: 32px;
-    width: 32px;
+    height: 42px;
+    width: 42px;
     border-radius: 6px;
     transition: all 0.3s ease;
   }

@@ -186,11 +186,23 @@
       ]
     },
     {
-      "name": "Angular",
-      "level": "Básico",
+      "name": "PHP",
+      "level": "Avanzado",
       "keywords": [
         "Desarrollo Web",
-        "Frontend"
+        "Backend",
+        "JavaScript",
+        "Servidor"
+      ]
+    },
+    {
+      "name": "Laravel",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web",
+        "Backend",
+        "JavaScript",
+        "Servidor"
       ]
     },
     {
@@ -262,6 +274,14 @@
         "JavaScript Library",
         "UI"
       ]
+    },
+    {
+      "name": "Angular",
+      "level": "Básico",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend"
+      ]
     }
   ],
   "languages": [
@@ -295,8 +315,8 @@
       "isActive": true,
       "description": "Sistema de reconocimiento automático de patentes vehiculares para la Universidad del Bío-Bío",
       "highlights": [],
-      "url": "",
-      "github": ""
+      "url": "https://github.com/camjasaez/app-tesis",
+      "github": "https://github.com/camjasaez/app-tesis"
     },
     {
       "name": "Open Source UBB",
@@ -304,7 +324,7 @@
       "description": "Comunidad de estudiantes de la Universidad del Bío-Bío que promueve el desarrollo de software libre",
       "highlights": [],
       "url": "https://ubiobio.dev/",
-      "github": ""
+      "github": "https://github.com/ubiobio"
     },
     {
       "name": "Template poryecto ISW",
@@ -312,7 +332,15 @@
       "description": "Template para proyectos de Ingeniería de Software en la Universidad del Bío-Bío",
       "highlights": [],
       "url": "https://github.com/ubiobio/Template-ISW-Proyecto/tree/main",
-      "github": ""
+      "github": "https://github.com/ubiobio/Template-ISW-Proyecto/tree/main"
+    },
+    {
+      "name": "Aplicación prototipo Tinder",
+      "isActive": true,
+      "description": "Backend para el electivo de desarrollo web avanzado, creando aplicación similar a Tinder",
+      "highlights": [],
+      "url": "https://github.com/camjasaez/backend-DWA",
+      "github": "https://github.com/camjasaez/backend-DWA"
     }
   ]
 }
