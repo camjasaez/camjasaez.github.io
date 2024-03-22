@@ -6,7 +6,7 @@
     "email": "camjasaez@gmail.com",
     "phone": "+56 9 67376287",
     "url": "camilosaez.me",
-    "summary": "Soy egresado de Ingeniería de Ejecución en Computación e Informática en la Universidad del Bío Bío y llevo estudiando de forma autodidacta el desarrollo web desde el año 2020.\n Tengo una gran disposición hacia el aprendizaje autónomo, liderar equipos y afrontar desafíos que me lleven a desarrollar nuevas habilidades tanto en lo técnico como en lo laboral.\nDentro de mi formación destaco mi colaboración como vicepresidente en la organización de Open Source UBB, mi rol como profesor ayudante y la participación en Hack The Challenge de NTT DATA del año 2022.",
+    "summary": "Soy egresado de Ingeniería de Ejecución en Computación e Informática en la Universidad del Bío Bío y llevo estudiando de forma autodidacta el desarrollo web desde el año 2020, lo que me a convertido en una persona muy flexible con los lenguajes de  programación y el desarrollo de software.\n\n Tengo una gran disposición hacia el aprendizaje autónomo, liderar equipos y afrontar desafíos que me lleven a desarrollar nuevas habilidades tanto en lo técnico como en lo laboral.\n\nDentro de mi formación destaco mi colaboración como vicepresidente en la organización de Open Source UBB, mi rol como profesor ayudante y la participación en Hack The Challenge de NTT DATA del año 2022.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -92,10 +92,46 @@
   ],
   "certificates": [
     {
-      "name": "Certificate",
-      "date": "2021-11-07",
-      "issuer": "Company",
-      "url": "https://certificate.com"
+      "name": "Ruta de Aprendizaje de Node.js: Desarrollo Backend con JavaScript",
+      "date": "2022-10-01",
+      "issuer": "Platzi",
+      "url": "https://platzi.com/p/camjasaez/ruta/55-backend-javascript/diploma/detalle/"
+    },
+    {
+      "name": "Curso de Java Spring",
+      "date": "2023-01-28",
+      "issuer": "Platzi",
+      "url": "https://platzi.com/p/camjasaez/curso/1996-java-spring/diploma/detalle/"
+    },
+    {
+      "name": "Curso de Introducción a AWS: Fundamentos de Cloud Computing",
+      "date": "2022-12-05",
+      "issuer": "Platzi",
+      "url": "https://platzi.com/p/camjasaez/curso/2731-aws-fundamentos/diploma/detalle/"
+    },
+    {
+      "name": "Curso de Backend con NestJS",
+      "date": "2022-07-09",
+      "issuer": "Platzi",
+      "url": "https://platzi.com/p/camjasaez/curso/2272-nestjs/diploma/detalle/"
+    },
+    {
+      "name": "Curso de Fundamentos de Angular",
+      "date": "2023-01-31",
+      "issuer": "Platzi",
+      "url": "https://platzi.com/p/camjasaez/curso/2478-angular16/diploma/detalle/"
+    },
+    {
+      "name": "Curso de React 17",
+      "date": "2022-06-24",
+      "issuer": "Platzi",
+      "url": "https://platzi.com/p/camjasaez/curso/2444-react-17/diploma/detalle/"
+    },
+    {
+      "name": "Curso de Introducción a Java SE",
+      "date": "2021-04-02",
+      "issuer": "Platzi",
+      "url": "https://platzi.com/p/camjasaez/curso/1631-java-basico/diploma/detalle/"
     }
   ],
   "publications": [
@@ -291,7 +327,7 @@
     },
     {
       "language": "English",
-      "fluency": "Intermediate"
+      "fluency": "Intermediate B1/B2"
     }
   ],
   "interests": [
@@ -336,7 +372,7 @@
     },
     {
       "name": "Aplicación prototipo Tinder",
-      "isActive": true,
+      "isActive": false,
       "description": "Backend para el electivo de desarrollo web avanzado, creando aplicación similar a Tinder",
       "highlights": [],
       "url": "https://github.com/camjasaez/backend-DWA",
