@@ -371,6 +371,14 @@
       "github": "https://github.com/ubiobio/Template-ISW-Proyecto/tree/main"
     },
     {
+      "name": "Clases de ayudantía ISW",
+      "isActive": true,
+      "description": "Clases de ayudantia de Ingeniería de Software para la Universidad del Bío-Bío",
+      "highlights": [],
+      "url": "https://github.com/ubiobio/Ayudantia-ISW",
+      "github": "https://github.com/ubiobio/Ayudantia-ISW"
+    },
+    {
       "name": "Aplicación prototipo Tinder",
       "isActive": false,
       "description": "Backend para el electivo de desarrollo web avanzado, creando aplicación similar a Tinder",
