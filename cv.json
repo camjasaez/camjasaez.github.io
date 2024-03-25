@@ -162,16 +162,6 @@
       ]
     },
     {
-      "name": "JavaScript",
-      "level": "Master",
-      "keywords": [
-        "Desarrollo Web",
-        "Frontend",
-        "Backend",
-        "Fullstack"
-      ]
-    },
-    {
       "name": "Tailwind",
       "level": "Avanzado",
       "keywords": [
@@ -179,6 +169,16 @@
         "Frontend",
         "CSS Framework",
         "Diseño Responsive"
+      ]
+    },
+    {
+      "name": "JavaScript",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "Backend",
+        "Fullstack"
       ]
     },
     {
@@ -202,7 +202,36 @@
       ]
     },
     {
-      "name": "SpringBoot",
+      "name": "Next.js",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "React Framework",
+        "SSR",
+        "Static Generation"
+      ]
+    },
+    {
+      "name": "React",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "JavaScript Library",
+        "UI"
+      ]
+    },
+    {
+      "name": "Angular",
+      "level": "Básico",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend"
+      ]
+    },
+    {
+      "name": "Java",
       "level": "Avanzado",
       "keywords": [
         "Desarrollo Web",
@@ -212,7 +241,7 @@
       ]
     },
     {
-      "name": "Java",
+      "name": "SpringBoot",
       "level": "Avanzado",
       "keywords": [
         "Desarrollo Web",
@@ -289,35 +318,6 @@
         "Código Fuente",
         "Git"
       ]
-    },
-    {
-      "name": "Next.js",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web",
-        "Frontend",
-        "React Framework",
-        "SSR",
-        "Static Generation"
-      ]
-    },
-    {
-      "name": "React",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web",
-        "Frontend",
-        "JavaScript Library",
-        "UI"
-      ]
-    },
-    {
-      "name": "Angular",
-      "level": "Básico",
-      "keywords": [
-        "Desarrollo Web",
-        "Frontend"
-      ]
     }
   ],
   "languages": [
@@ -349,7 +349,7 @@
     {
       "name": "Proyecto de Título",
       "isActive": true,
-      "description": "Sistema de reconocimiento automático de patentes vehiculares para la Universidad del Bío-Bío",
+      "description": "Sistema de reconocimiento automático de matriculas vehiculares para la Universidad del Bío-Bío",
       "highlights": [],
       "url": "https://github.com/camjasaez/app-tesis",
       "github": "https://github.com/camjasaez/app-tesis"
@@ -363,7 +363,7 @@
       "github": "https://github.com/ubiobio"
     },
     {
-      "name": "Template poryecto ISW",
+      "name": "Template proyecto ISW",
       "isActive": true,
       "description": "Template para proyectos de Ingeniería de Software en la Universidad del Bío-Bío",
       "highlights": [],
@@ -377,6 +377,30 @@
       "highlights": [],
       "url": "https://github.com/camjasaez/backend-DWA",
       "github": "https://github.com/camjasaez/backend-DWA"
+    },
+    {
+      "name": "Pokedex",
+      "isActive": false,
+      "description": "Frontend de una pokedex de pokemones utilizando la API de Pokemon",
+      "highlights": [],
+      "url": "https://poke-webapp.netlify.app/pokedex",
+      "github": "https://github.com/camjasaez/poke-app"
+    },
+    {
+      "name": "Bot de musica para Discord",
+      "isActive": false,
+      "description": "Bot de música para Discord utilizando la API de Spotify y Youtube",
+      "highlights": [],
+      "url": "https://github.com/camjasaez/MCBot",
+      "github": "https://github.com/camjasaez/MCBot"
+    },
+    {
+      "name": "AWS CRUD S3",
+      "isActive": false,
+      "description": "CRUD de archivos en AWS S3 utilizando Node.js y Express.js",
+      "highlights": [],
+      "url": "https://github.com/camjasaez/AWS-S3-CRUD",
+      "github": "https://github.com/camjasaez/AWS-S3-CRUD"
     }
   ]
 }

@@ -97,6 +97,11 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(' • ');
 </Section>
 
 <style>
+  a {
+    @apply shadow-[0_1px_1px_0_rgba(_31,38,135,0.1_)] rounded-[10px] border border-solid border-[rgba(_255,255,255,0.18_)];
+    -webkit-backdrop-filter: blur(0.1px);
+  }
+
   .top {
     display: flex;
     gap: 1rem;

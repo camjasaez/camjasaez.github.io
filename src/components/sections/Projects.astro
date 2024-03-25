@@ -59,13 +59,9 @@ import { projects } from '@cv';
   }
 
   article {
-    border-radius: 8px;
-    border: 1px solid #f2f2f2;
-    gap: 16px;
-    display: flex;
-    flex-direction: column;
-    padding: 16px;
-    height: 100%;
+    @apply gap-4 flex flex-col h-full p-4 rounded-lg border-opacity-55;
+    @apply shadow-[0_1px_1px_0_rgba(_31,38,135,0.2_)] rounded-[10px] border border-solid border-[rgba(_255,255,255,0.18_)];
+    -webkit-backdrop-filter: blur(0.1px);
   }
 
   article header {
