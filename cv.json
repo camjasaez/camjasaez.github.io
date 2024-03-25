@@ -104,6 +104,12 @@
       "url": "https://platzi.com/p/camjasaez/curso/1996-java-spring/diploma/detalle/"
     },
     {
+      "name": "Curso de Introducción a Java SE",
+      "date": "2021-04-02",
+      "issuer": "Platzi",
+      "url": "https://platzi.com/p/camjasaez/curso/1631-java-basico/diploma/detalle/"
+    },
+    {
       "name": "Curso de Introducción a AWS: Fundamentos de Cloud Computing",
       "date": "2022-12-05",
       "issuer": "Platzi",
@@ -126,12 +132,6 @@
       "date": "2022-06-24",
       "issuer": "Platzi",
       "url": "https://platzi.com/p/camjasaez/curso/2444-react-17/diploma/detalle/"
-    },
-    {
-      "name": "Curso de Introducción a Java SE",
-      "date": "2021-04-02",
-      "issuer": "Platzi",
-      "url": "https://platzi.com/p/camjasaez/curso/1631-java-basico/diploma/detalle/"
     }
   ],
   "publications": [

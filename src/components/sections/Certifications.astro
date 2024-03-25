@@ -1,0 +1,43 @@
+---
+import Section from '../Section.astro';
+
+import { certificates } from '@cv';
+---
+
+<Section title="Certificados 🚀">
+  <ul>
+    {
+      certificates.map((certificate) => (
+        <li>
+          <a href={certificate.url} target="_blank" rel="noopener noreferrer">
+            {certificate.name}
+          </a>
+        </li>
+      ))
+    }
+  </ul>
+</Section>
+
+<style>
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  li {
+    margin-bottom: 1rem;
+  }
+
+  a {
+    color: var(--text);
+    text-decoration: none;
+    transition: color 0.2s;
+    @apply gap-4 flex flex-col h-full p-4 rounded-lg border-opacity-55;
+    @apply shadow-[0_1px_1px_0_rgba(_31,38,135,0.2_)] rounded-[10px] border border-solid border-[rgba(_255,255,255,0.18_)];
+    -webkit-backdrop-filter: blur(0.1px);
+  }
+
+  a:hover {
+    color: var(--primary);
+  }
+</style>
