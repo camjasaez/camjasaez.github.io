@@ -24,6 +24,8 @@ const linkedInfo = profiles.find(({ network }) => network === 'LinkedIn');
 const linkedUrl = linkedInfo?.url;
 
 const printInfo = [email, phone, linkedUrl].filter(Boolean).join(' • ');
+
+const isActive = true;
 ---
 
 <Section>
@@ -89,6 +91,9 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(' • ');
           })
         }
       </footer>
+      <section>
+        {isActive && <h2>• Estoy en busqueda de empleo •</h2>}
+      </section>
     </div>
     <figure>
       <img src={image} alt={name} />
@@ -145,6 +150,14 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(' • ');
     gap: 0.25rem;
     font-size: 0.85rem;
     letter-spacing: -0.05rem;
+  }
+
+  section h2 {
+    color: rgb(0, 188, 47);
+    animation-name: flicker;
+    animation-duration: 2.5s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
   }
 
   footer {
