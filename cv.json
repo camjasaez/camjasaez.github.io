@@ -29,6 +29,15 @@
   },
   "work": [
     {
+      "name": "Gatblac",
+      "position": "Software Developer",
+      "url": "https://gatblac.com/",
+      "startDate": "2023-04-15",
+      "endDate": null,
+      "summary": "",
+      "highlights": []
+    },
+    {
       "name": "Open Source UBB",
       "position": "Vicepresidente",
       "url": "https://ubiobio.dev/",
@@ -242,26 +251,6 @@
     },
     {
       "name": "SpringBoot",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web",
-        "Backend",
-        "JavaScript",
-        "Servidor"
-      ]
-    },
-    {
-      "name": "PHP",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web",
-        "Backend",
-        "JavaScript",
-        "Servidor"
-      ]
-    },
-    {
-      "name": "Laravel",
       "level": "Avanzado",
       "keywords": [
         "Desarrollo Web",
